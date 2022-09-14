@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+}
+
+nav ol {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+nav ol li {
+    padding: 35px;
+    font-size: 150%;
+    color: white;
+}
+
+#logo{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: rgb(197, 28, 28);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 200%;
+}
+
+#logo-span {
+    color: gainsboro;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+article {
+    background-color: rgb(200, 255, 255);
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: green;
+    font-size: 120%;
+    border-radius: 0 0 5px 5px;
+    margin-top: 5px;
+    font-weight: 540;
+}
+
+footer li{
+    margin: 3px;
+}
+
+footer ol {
+    list-style-type: none;
+}
+
+ footer a:hover {
+    color: purple;
+}
+
+footer a {
+    color: green;
+}
+
+#log-in-button {
+    background-color: white;
+    color: rgb(43, 0, 255);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#sign-in-button {
+    background-color: white;
+    color: green;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bolder;
+}
